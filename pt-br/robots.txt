@@ -1,1 +1,0 @@
-User-agent: * Disallow: Sitemap: https://housefz.github.io/homepage/sitemap.xml
