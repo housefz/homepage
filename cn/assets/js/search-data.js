@@ -22,54 +22,34 @@ ninja.data = [{
     },
   },{id: "nav-博客",
           title: "博客",
-          description: "一个简单的学术主题",
+          description: "面朝大海，春暖花开",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/homepage/cn/blog/";
           },
-        },{id: "nav-简历",
-          title: "简历",
-          description: "这是一个页面描述。你可以在 &#39;_pages/cv.md&#39; 中修改它。你也可以更改或移除顶部的 PDF 下载按钮。",
-          section: "导航菜单",
-          handler: () => {
-            window.location.href = "/homepage/cn/cv/";
-          },
-        },{id: "dropdown-出版物",
-              title: "出版物",
-              description: "",
-              section: "下拉菜单",
-              handler: () => {
-                window.location.href = "/homepage/cn";
-              },
-            },{id: "dropdown-分隔线",
-              title: "分隔线",
-              description: "",
-              section: "下拉菜单",
-              handler: () => {
-                window.location.href = "/homepage/cn";
-              },
-            },{id: "dropdown-项目",
-              title: "项目",
-              description: "",
-              section: "下拉菜单",
-              handler: () => {
-                window.location.href = "/homepage/cn";
-              },
-            },{id: "dropdown-分隔线",
-              title: "分隔线",
-              description: "",
-              section: "下拉菜单",
-              handler: () => {
-                window.location.href = "/homepage/cn";
-              },
-            },{id: "dropdown-博客",
-              title: "博客",
-              description: "",
-              section: "下拉菜单",
-              handler: () => {
-                window.location.href = "/homepage/cn/blog/";
-              },
-            },{id: "news-一个简单的一行公告",
+        },{id: "post-hello-world",
+      
+        title: "Hello, World",
+      
+      description: "Hello, World",
+      section: "文章",
+      handler: () => {
+        
+          window.location.href = "/homepage/cn/blog/2025/Hello,-World/";
+        
+      },
+    },{id: "post-你好-世界",
+      
+        title: "你好，世界",
+      
+      description: "你好，世界",
+      section: "文章",
+      handler: () => {
+        
+          window.location.href = "/homepage/cn/blog/2025/%E4%BD%A0%E5%A5%BD-%E4%B8%96%E7%95%8C/";
+        
+      },
+    },{id: "news-一个简单的一行公告",
           title: '一个简单的一行公告。',
           description: "",
           section: "新闻",},{id: "news-um-anúncio-longo-com-detalhes",
@@ -100,13 +80,6 @@ ninja.data = [{
         section: '社交网络',
         handler: () => {
           window.open("/homepage/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: '社交网络',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
           id: 'lang-en',

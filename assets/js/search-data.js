@@ -22,40 +22,34 @@ ninja.data = [{
     },
   },{id: "nav-blog",
           title: "blog",
-          description: "a simple whitespace theme for academics",
+          description: "Facing the sea, with spring blossoms.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/homepage/blog/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/homepage/cv/";
-          },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/homepage";
-              },
-            },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/homepage";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/homepage/blog/";
-              },
-            },{id: "news-a-simple-inline-announcement",
+        },{id: "post-hello-world",
+      
+        title: "Hello, World",
+      
+      description: "Hello, World",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/homepage/blog/2025/Hello,-World/";
+        
+      },
+    },{id: "post-你好-世界",
+      
+        title: "你好，世界",
+      
+      description: "你好，世界",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/homepage/blog/2025/%E4%BD%A0%E5%A5%BD-%E4%B8%96%E7%95%8C/";
+        
+      },
+    },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
@@ -86,13 +80,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/homepage/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
           id: 'lang-cn',
