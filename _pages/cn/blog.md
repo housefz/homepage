@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: 博客
-blog_name: al-folio 中文版
-description: 一个简单的学术主题
+blog_name: house_fz房子
+description: 面朝大海，春暖花开
 nav: true
 nav_order: 1
 pagination:
@@ -191,4 +191,3 @@ pagination:
 {% endif %}
 
 </div>
-

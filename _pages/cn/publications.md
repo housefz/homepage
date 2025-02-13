@@ -15,4 +15,3 @@ published: false
 {% bibliography %}
 
 </div>
-

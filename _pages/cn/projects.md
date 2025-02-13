@@ -59,4 +59,3 @@ published: false
     {% endif %}
   {% endif %}
 </div>
-

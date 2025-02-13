@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
-blog_name: al-folio in english
-description: a simple whitespace theme for academics
+blog_name: house_fz
+description: Facing the sea, with spring blossoms.
 nav: true
 nav_order: 1
 pagination:

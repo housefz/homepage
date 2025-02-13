@@ -47,4 +47,3 @@ published: false
   {% endfor %}
 </div>
 {% endif %}
-
