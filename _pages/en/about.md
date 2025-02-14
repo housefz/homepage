@@ -28,4 +28,4 @@ latest_posts:
 
 Hello, this is house_fz. You can call me house. Nice to meet you~.
 
-This site mainly serves as a personal blog. I am still considering what to write. I am thinking about sharing my thoughts on reading, personal experiences, etc. 
+This site mainly serves as a personal blog. I am still considering what to write. I am thinking about sharing my thoughts on reading, personal experiences, etc.
