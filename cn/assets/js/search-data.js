@@ -27,7 +27,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/homepage/cn/blog/";
           },
-        },{id: "post-hello-world",
+        },{id: "post-忆燕园春",
+      
+        title: "忆燕园春",
+      
+      description: "",
+      section: "文章",
+      handler: () => {
+        
+          window.location.href = "/homepage/cn/blog/2025/%E5%BF%86%E7%87%95%E5%9B%AD%E6%98%A5/";
+        
+      },
+    },{id: "post-hello-world",
       
         title: "Hello, World",
       
